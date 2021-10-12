@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TailwindHeroku</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'new_registration', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'new_registration', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_pack_tag 'new_registration', media: 'all', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <%= yield %>
+
+      <h1> this is the registration page</h1>
+  </body>
+</html>
