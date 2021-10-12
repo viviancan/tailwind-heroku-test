@@ -1,1 +1,1 @@
-import '../stylesheets/tw_new_registration.css'
+import '../stylesheets/new_registration.css'
